@@ -1,15 +1,15 @@
 Getting and Cleaning Data Project
 =================================
 
-##Introduction
+#Introduction
 This project takes from the, 'Human Activity Recognition Using Smartphones Dataset'[1], a tidy data set of the averages and standard deviations observed on 30 volunteers on their movements (aceleration, angular veolocity, body aceleration) using smartphones on six different activities.
 
 The result is a data frame of 180 rows (6 activities per volunteer) and 79 columns that represents the averages meassured.
 
-##Content
+#Content
 On this repo you can find the original dataset merged (test and train sets), the data set of the averages, the tidy data set, and the R-script used to make the tidy data set from zero.
 
-#R-Script
+##R-Script
 This R-Script can work with or without the original dataset as long as an internet conection is available and will work on the current working directory.
 
 The form that this script works is the following:
