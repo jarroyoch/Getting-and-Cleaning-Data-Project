@@ -8,11 +8,13 @@ This project takes from the, 'Human Activity Recognition Using Smartphones Datas
 The result is a data frame of 180 rows (6 activities per volunteer) and 79 columns that represents the averages meassured.
 
 ##Content
-On this repo you can find the original dataset merged (test and train sets), the tidy data set, a cookbook where you can find more info about the variables and the process and a R-script to reproduce the process of attain the tiny data set from the non processed data.
+On this repo you can find the original dataset merged (test and train sets), the tidy data set, a cookbook where you can find more info about the variables and the process that had been made to attain this dataset. Also on this repo is included the R-script used to reproduce the process.
 
 
 ##About the original data
+Credits of the original data:
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
+
 
 "The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
