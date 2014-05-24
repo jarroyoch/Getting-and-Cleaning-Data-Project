@@ -2,13 +2,26 @@ Getting and Cleaning Data Project
 =================================
 
 ##Introduction
-This project takes from the, 'Human Activity Recognition Using Smartphones Dataset'[1], a tidy data set of the averages and standard deviations observed on 30 volunteers on their movements (aceleration, angular veolocity, body aceleration) using smartphones on six different activities
-
+This project takes from the, 'Human Activity Recognition Using Smartphones Dataset'[1], a tidy data set of the averages and standard deviations observed on 30 volunteers on their movements (aceleration, angular veolocity, body aceleration) using smartphones on six different activities.
 
 The result is a data frame of 180 rows (6 activities per volunteer) and 79 columns that represents the averages meassured.
 
 ##Content
-On this repo you can find the original dataset merged (test and train sets), the tidy data set, a cookbook where you can find more info about the variables and the process that had been made to attain this dataset. Also on this repo is included the R-script used to reproduce the process.
+On this repo you can find the original dataset merged (test and train sets), the data set of the averages, the tidy data set, and the R-script used to make the tidy data set from zero.
+
+#R-Script
+This R-Script can work with or without the original dataset as long as an internet conection is available and will work on the current working directory.
+
+The form that this script works is the following:
+* Check if the data set exists, if not, then will download it or unzip it
+* Call the data of the test and train sets
+* Change the names to more data friendly ones (lowercasses and remove of signs)
+* Merge it with the data friendly names producing DataProcessed.txt
+* Look for the means and standaard deviations to make the DataProcessed2.txt
+* Reshape the Dataprocessed2 to a more handy format
+* Produce the tidyData set.
+
+For a better understanding og the R-script, feel free to see the code and run it.
 
 
 ##About the original data
